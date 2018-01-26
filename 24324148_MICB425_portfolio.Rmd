@@ -1,7 +1,6 @@
 ---
 title: "MICB425_portfolio"
 author: "Sawera Dhaliwal (24324148)"
-date: "January 25, 2018"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
-
