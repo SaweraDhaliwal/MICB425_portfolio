@@ -1,0 +1,29 @@
+### Evidence worksheet 05
+
+#### Learning objectives
+Discuss the relationship between microbial community structure and metabolic diversity.
+
+Evaluate common methods for studying the diversity of microbial communities. 
+
+Recognize basic design elements in metagenomic workflows. 
+
+
+#### Prompt
+* What were the main questions being asked?  
+To study PR photosystem structure and function using DNA libraries from marine picoplankton. Especially determine whether light driven ATP synthesis could be transferred to heterologous hosts in a single recombination event. 
+
+* What were the primary methadological approaches used?  
+1) Screened for PR-containing clones on retinal-containing LB agar plating medium by looking for red or orange pigmentation.
+2) DNA sequence of the putative PR photosystems containing fosmids was obtained by sequencing a collection of transposon-insertion clones. 
+3) Analyzed transposon insertion mutants and evaluated intermediates that accumulated in order to deduce functions. Evaluate intermediates using cell pigmentation and HPLC pigment analyses. 4) Measure pH to determine whether fosmids can independently express a functional PR with light activated proton translocation activity. 
+
+* Summarize the main results or findings.  
+Two fosmids were identified that contained genes that are necessary and sufficient for proteorhodopsin based phototrophy. These were cloned into E. coli cells. Exterior pH and interior ATP concentration changed when the modified E. coli cells were exposed to light. These fosmids also contained genes sufficient to produce retinol so long as the cells already produced FPP (e.g. E. coli).  Copy number of the genes showed a difference in phenotypic identification. 
+
+* Do new questions arise from the results?  
+1) How much variation in this grouping of genes is there naturally? 
+2) Are retinal pathways usually close to the PR gene? Are they transferred together as a rule? 
+3) Are these genes (retinol pathway + PR) usually located on a plasmid or integrated into the bacterial genome in natural communities?
+
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+The paper provided an adequate amount of background information. The information provided was relevant and succinct. The result section was sufficiently detailed with many references to appropriate visual aids. Details provided in the method and results sections logically led to conclusions presented in the discussion. The paper itself was somewhat difficult to understand. Perhaps because the detail was beyond my scope of knowledge. 

@@ -1,0 +1,24 @@
+### Evidence Worksheet 01 
+[Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+#### Learning objectives
+Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
+
+#### General questions
+* What were the main questions being asked?  
+What is the population size, density, and distribution of prokaryotes on earth? What quantity of essential nutrients, specfically carbon, are held by prokaryotes?
+
+* What were the primary methodological approaches used?  
+For aquatic and soil samples used direct counts. For unconsolidated sediments cited previous results. For terrestrial subsurface assumed porosity and volume of cell, and used groundwater data. 
+
+* Summarize the main results or findings.  
+Most prokaryotes reside in seawater, soil, and sediment/soil subsurface. The prokaryote population  contains large amounts of carbon, nitrogen, phosphorus, and other essential nutrients. The large population size of prokaryotes also suggests that there exist many events occuring in nature that we do not yet understand. 
+
+* Do new questions arise from the results? 
+Prokaryotes are alarmingly abundant, play a role in important nutrient cycles, and experience a high mutation rate. This leads us to wonder what the true consequence of prokaryotic life on earth is. 
+
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+The paper contained a significant amount of evidence, that was presented in a meaningful way. The assumptions and conclusions were justified using this evidence. However, not all experimental methods were adequately explained. The paper could also use more structure in order to increase readability.
+
+
+

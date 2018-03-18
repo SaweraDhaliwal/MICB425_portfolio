@@ -1,0 +1,24 @@
+### Problem set 02
+[Falkowski *et al* 2008](http://science.sciencemag.org/content/320/5879/1034.full)
+
+#### Learning objectives: 
+Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles. 
+
+#### Specific questions:
+* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+Primary geophysical processes are based on tectonics and atmospheric photochemical processes. The high level of hydrogen in Earth's atmosphere results in the majority of these abiotic processes being based on acid base chemistry. Acid base reactions supply and remove substances to create cycling of nutrients. The primary biogeochemical processes are abiotic acid base reactions and biotic redox reactions both based on cycling of H, C, N, O, S, and P.  All the processes connect to create balance in elements and processes on earth. 
+
+* Why is Earth's redox state considered an emergent property?  
+Earth's redox state is considered an emergent property since it has emerged as a result of interactions between microbial metabolic redox reactions and abiotic geochemical processes. 
+
+* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+Reversible electron transfer reactions of elements and nutrients are fundamentally globally interconnected. The biosphere attains a self-sustaining state in different ecological scales as a result of coupled nutrient cycling. In order to overcome thermodynamic barriers to reversible electron flow, microbial metabolic pathways have evolved to use products of one cycle as substrates in another. 
+
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox niches and microbial groups. Is there a relationship between the nitrogen cycle and climate change?  
+The nitrogen cycle partitions between different redox niches and microbial groups based on the availability of oxygen and organic matter. In the presence of oxygen, a specific group of Bacteria or Archaea perform the first oxygenation. The second oxidation is performed by a different group of nitrifying bacteria. In the absence of oxygen, a third set of microbes will use nitrogen dioxide and nitrate as electron acceptors to close the cycle. Nitrous oxide is potent greenhouse gas involved in the nitrogen cycle, which may effect climate change. 
+
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+The more microbial genomes we sequence, the more unique protein families we discover. It is argued that the vast number of genomic information discovered recently suggests a "limitless evolutionary diversity in nature". Most of the genetic diversity observed is contained within nonessential genes and environment specific genes. Essential genes involved in metabolism do not display the same level of diversity. 
+
+* On what basis do the authors consider microbes the guardians of metabolism?  
+Microbes harbour core metabolic machinery that stands the test of time. They are purposed to "ferry" critical gene sets through extinction events, due to their inherent resilience. 

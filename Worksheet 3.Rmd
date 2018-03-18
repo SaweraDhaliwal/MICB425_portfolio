@@ -1,0 +1,21 @@
+### Evidence Worksheet 03
+[Rockstrom *et al* 2009](https://www.nature.com/articles/461472a)
+
+#### Learning objectives
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems. 
+
+#### General Questions: 
+* What were the main questions being asked?  
+Identify major earth system processes for which, if certain thresholds are crossed, a shift into a new system state could occur. 
+
+* What were the primary methadological approaches used?  
+This paper cited existing data instead of conducting an actual experiment. 
+
+* Summarize the main results or findings.  
+Conclude that there are nine earth processes which need to have defined boundaries which are largely interdependent (climate change, rate of biodiversity loss, interference with nitrogen and phosphorus cycles, stratospheric ozone depletion, ocean acidification, global freshwater use, change in land use, chemical pollution, atmospheric aerosol loading. There is evidence that three of these processes are already moving out of the Holocene state, since the current parameters are near or above the proposed boundaries. 
+
+* Do new questions arise from the results?  
+The authors themselves acknowledge some of the gaps in the proposition. For example, that they have been using some of their "first best guesses" in defining boundaries. They also acknowledge that the interactions between boundaries are also not understood. 
+
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+The concept presented was unique and intriguing. There was evidence provided regarding the current states of planetary boundaries. However, the relationship between the state of these boundaries and the proposed shift into the proposed "Anthropocene" was not adequately justified.  It wasn't well explained how the authors came up with the boundaries, nor why reaching the boundaries was notable.

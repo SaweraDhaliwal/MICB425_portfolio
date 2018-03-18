@@ -46,10 +46,8 @@ The remaining second level headers (##) are for separating data science Friday, 
 
 ### Installation check
 Use this space to include your installation screenshots.
-![Installation1](~/Documents/MICB425_portfolio/image.png)
-![Installation2](~/Documents/MICB425_portfolio/image.png)
-![Installation3](~/Documents/MICB425_portfolio/image.png)
 
+HAD TROUBLE UPLOADING IMAGE, GET HELP 
 
 ### Portfolio repo setup
 Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your porfolio throughout the course.
@@ -76,14 +74,19 @@ Describe the numerical abundance of microbial life in relation to ecology and bi
 
 #### General questions
 * What were the main questions being asked?  
+What is the population size, density, and distribution of prokaryotes on earth? What quantity of essential nutrients, specfically carbon, are held by prokaryotes?
 
 * What were the primary methodological approaches used?  
+For aquatic and soil samples used direct counts. For unconsolidated sediments cited previous results. For terrestrial subsurface assumed porosity and volume of cell, and used groundwater data. 
 
 * Summarize the main results or findings.  
+Most prokaryotes reside in seawater, soil, and sediment/soil subsurface. The prokaryote population  contains large amounts of carbon, nitrogen, phosphorus, and other essential nutrients. The large population size of prokaryotes also suggests that there exist many events occuring in nature that we do not yet understand. 
 
-* Do new questions arise from the results?  
+* Do new questions arise from the results? 
+Prokaryotes are alarmingly abundant, play a role in important nutrient cycles, and experience a high mutation rate. This leads us to wonder what the true consequence of prokaryotic life on earth is. 
 
 * Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+The paper contained a significant amount of evidence, that was presented in a meaningful way. The assumptions and conclusions were justified using this evidence. However, not all experimental methods were adequately explained. The paper could also use more structure in order to increase readability.
 
 
 
@@ -93,27 +96,38 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 
 #### Specific questions:
 * What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+The primary prokaryotic habitats on Earth are aquatic, soil, and oceanic and terrestrial subsurface habitats. These contain 1.181x10^20, 2.556x10^29 and 3.8x10^30 cells respectively. 
 
 * What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+Upper 200m of ocean contains total of 3.6x10^28 cells. Of this, 2.9x10^27 cells are marine cyanobacterium. This high ratio of cyanobacterium in the upper 200m of the ocean is significant because cyanobacterium are autotrophic, meaning they assimilate carbon and produce oxygen. 
 
 * What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
+An autotroph fixes inorganic carbon. Heterotrophs assimilate inorganic carbon. Lithotrophs use inorganic substrates. 
 
 * Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+The deepest habitat capable of supporting prokaryotic life is at 3000m-4000m deep. The primary limiting factor at this depth is temperature.
 
 * Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
+The highest habitat capable of supporting prokaryotic life is at 55-77km high (perhaps an overly optimistic estimate). The primary limiting factor is likely access to other organisms and nutrients, or ionizing radiation. 
 
 * Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+Estimated vertical distance of Earth's biosphere is 58-81km. 
 
 * How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)  
+Use estimates of prokaryotic carbon in environment to set limits for turnover rates. The population size multiplied by the yearly turnover should yield the annual cellular production. For example: (3.6x1028 cells) x (day/16) x (365day/yr) = 8.2x1029cells/year. 
 
 * What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+/// Carbon assimilation will increase carbon content, and carbon turnover will decrease carbon content. I would amount of carbon assimilation decreases with depth ….
 
 * How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+/// Example calculation for upper 200m heterotroph: 
+
 
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
+The large population size and high mutation rate results in an increase in genetic diversity and adaptive potential for prokaryotes. Some methods of diversification include point mutation, plasmid transfer, recombination, etc. 
 
-* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
-
+* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text?  
+High abundance an rapid replication result in a high mutation rate. High mutation rate causes an increase in diversity of prokaryotes which, in turn, increases the metabolic potential. 
 
 
 ### Module 01 references
