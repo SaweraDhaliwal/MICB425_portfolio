@@ -1,0 +1,70 @@
+---
+title: "Problem Set 4"
+author: "Sawera Dhaliwal (24324148)"
+date: "3/19/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+library(kableExtra)
+library(knitr)
+library(tidyverse)
+library(vegan)
+
+#load community data
+community_data = data.frame(
+  number = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16),
+  name = c("rigo", "lego", "drop", "bear", "skit", "mnm", "mike","macrophage","swirl","watermelon","kisses","snake","bottle","hock","port","fish"),
+  characteristics=c("wine gum","hard lego all sizes","gum drop","gummy bear","skittle","m and m chocolates","mike and ike","macrophage shaped gummy","swirl drop","watermelon gummy","kisses chocolate","long red gummy","gummy bottle","transluscent oval","translucent diamond","red green fish"),
+  occurences = c(7,18,24,74,197,218,199,6,3,1,16,13,3,1,1,1)
+)
+
+#create community data table
+community_data %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+  
+#creating the collector's curve 
+#!!!
+
+#diversity estiamtes (alpha diversity)
+##simpson reciprocal index for community sample 
+species1 = 7/782
+species2 = 18/782
+species3 = 24/782
+species4 = 74/782
+species5 = 197/782
+species6 = 218/782
+species7 = 199/782
+species8 = 6/782
+species9 = 3/782
+species10 = 1/782
+species11 = 16/782
+species12 = 13/782
+species13 = 3/782
+species14 = 1/782
+species15 = 1/782
+species16 = 1/782
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2)
+
+##Chao1 richness estimator
+16 + 4^2/(2*12)
+
+#alpha diversity functions in R (load vegan)
+##remove unnecesary columns
+community_data_diversity = 
+  community_data %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+community_data_diversity
+
+##calculate the Simpson Reciprocal Index
+diversity(community_data_diversity, index="invsimpson")
+
+##calculate the Chao1 richness estimator
+specpool(community_data_diversity)

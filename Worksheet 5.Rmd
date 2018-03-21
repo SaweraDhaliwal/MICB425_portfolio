@@ -1,0 +1,27 @@
+### Evidence worksheet 05
+
+#### Part 1: Learning objectives
+Evaluate the concept of microbial species based on environmental surveys and cultivation studies. 
+
+Explain the relationship between microdiversity, genomic diversity, and metabolic potential.
+
+Comment on the forces mediating divergence and cohesion in natural microbial communities. 
+
+#### Part 1: Prompt
+* What were the main questions being asked?  
+* What were the primary methodological approaches used? 
+* Summarize the main results or findings. 
+* Do new questions arise from the results?
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?
+
+### Part 2: Learning objectives 
+Comment on the creative tension between gene loss, duplication and acquisition as it relates to microbial genome evolution
+
+Identify common molecular signatures used to infer genomic identity and cohesion
+
+Differentiate between mobile elements and different modes of gene transfer
+
+### Part 2: Prompt
+Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
+
+![Worksheet 5 Image](image.png)

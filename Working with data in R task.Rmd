@@ -1,0 +1,54 @@
+---
+title: "Working with data in R task"
+author: "Sawera Dhaliwal (24324148)"
+date: "March 18, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+library(tidyverse)
+
+#load Saanich.metadata file practice with document as guide
+<!-- metadata %>% select(O2_uM) -->
+
+<!-- metadata %>% filter(O2_uM == 0) %>% select (Depth_m) -->
+
+<!-- metadata %>%  -->
+<!--   mutate(N2O_uM = N2O_nM/1000) -->
+
+<!-- metadata %>%  -->
+<!--   mutate(N2O_uM = N2O_nM/1000) %>%  -->
+<!--   ggplot() + geom_point(aes(x=Depth_m, y=N2O_uM)) -->
+
+# Exercise 1
+read.table(file="Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+OTU = read.table(file="Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+
+# Exercise 2
+read.table(file="Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+metadata = read.table(file="Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t")
+
+metadata %>%
+  filter(CH4_nM > 100) %>%
+  filter(Temperature_C < 10) %>%
+  select(Depth_m)
+  
+# Exercise 3
+metadata %>% 
+  select(CH4_nM) %>% 
+  
+metadata %>% 
+  select(mutate(N2O_uM = N2O_nM/1000)) %>% 
+  select(mutate(CH4_uM = CH4_nM/1000))
+
+  
+metadata %>% 
+  mutate(N2O_uM = N2O_nM/1000) %>% 
+  mutate(CH4_uM = CH4_nM/1000) %>% 
+  select(N2O_uM) %>% 
+  select(CH4_uM) %>% 
+  select(N2O_nM) %>% 
+  select(CH4_nM)

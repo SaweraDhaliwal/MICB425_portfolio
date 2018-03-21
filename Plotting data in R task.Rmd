@@ -1,0 +1,73 @@
+---
+title: "Plotting data in R task"
+author: "Sawera Dhaliwal (24324148)"
+date: "March 18, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+library(tidyverse)
+source("https://bioconductor.org/biocLite.R")
+biocLite("phyloseq")
+library(phyloseq)
+load("phyloseq_object.RData")
+
+### Learning about dot plots
+ggplot(metadata, aes(x=O2_uM, y=Depth_m)) +
+  geom_point(color="blue")
+
+ggplot(metadata) +
+  geom_point(aes(x=O2_uM, y=Depth_m))
+
+ggplot(metadata, aes(x=O2_uM, y=Depth_m)) +
+  geom_point(shape=0)
+
+ggplot(metadata, aes(x=O2_uM, y=Depth_m, size=OxygenSBE_V)) +
+  geom_point()
+
+plot_bar(physeq, fill="Phylum")
+
+physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
+plot_bar(physeq_percent, fill="Phylum")
+
+plot_bar(physeq_percent, fill="Phylum") + 
+  geom_bar(aes(fill=Phylum), stat="identity")
+  
+plot_bar(physeq_percent, fill="Phylum") +
+  geom_bar(aes(fill=Phylum), stat="identity") +
+  facet_wrap(~Phylum)
+
+plot_bar(physeq_percent, fill="Phylum") +
+  geom_bar(aes(fill=Phylum), stat="identity") +
+  facet_wrap(~Phylum, scales="free_y") +
+  theme(legend.position="none")
+  
+#Exercise 1
+ggplot(metadata, aes(x=PO4_uM, y=Depth_m)) +
+  geom_point(color="purple", shape=17)
+  
+#Exercise 2
+metadata %>% 
+  mutate(Temperature_F = Temperature_C*32) %>% 
+  ggplot() + geom_point(aes(x=Temperature_F, y=Depth_m))
+  
+#Exercise 3
+physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
+
+plot_bar(physeq_percent, fill="Family") + 
+  geom_bar(aes(fill=Family), stat="identity") +
+  labs(x="Sample depth", y="Percent relative abundance", title="Families from 10m-200m depth in Saanich Inlet") +
+  annotate(geom ="text",x=8,y=8,label="A")
+  
+#Exercise 4
+ggplot(metadata) +
+  geom_point(aes(x=O2_uM, y=Depth_m))
+
+metadata %>%
+  gather(metadata, "nutrient", "concentration", 2:5)
+  
+#for O2, PO4, SiO2, NO3, NH4, NO2 (uM)
+#use gather to put all of the nutrients into one column
