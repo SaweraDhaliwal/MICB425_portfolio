@@ -2,8 +2,10 @@
 title: "Pretty_html"
 author: "Sawera Dhaliwal (24324148)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
-toc: yes
+output:
+  html_document:
+    toc: yes
+  'html_document: toc: true': default
 ---
 
 # R Markdown PDF Challenge
@@ -34,7 +36,13 @@ Perhaps you’re already really confused by the whole markdown thing. Maybe you�
 ### Table Time 
 
 Or maybe, after you’ve added those numbers, you feel like it’s about time for a table!
-I’m going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It’s not terribly pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that you may use in the ^future.
+I’m going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It’s not terribly pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that you may use in the ^future^.
+
+```{r}
+library(knitr)
+kable(summary(cars),caption="I made this table with kable in the knitr package library")
+  ```
+  
 
 And now you’ve almost finished your first RMarkdown! Feeling excited? We are! In fact, we’re so excited that maybe we need a big finale eh? Here’s ours! Include a fun gif of your choice!
 
