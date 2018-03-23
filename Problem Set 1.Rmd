@@ -1,10 +1,10 @@
-### Problem set 01
+### Problem Set 01
 [Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
-#### Learning objectives: 
+#### Learning Objectives: 
 Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
 
-#### Specific questions:
+#### Specific Questions:
 * What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
 The primary prokaryotic habitats on Earth are aquatic, soil, and oceanic and terrestrial subsurface habitats. These contain 1.181x10^20^, 2.556x10^29^ and 3.8x10^30^ cells respectively. 
 

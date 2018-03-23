@@ -47,18 +47,20 @@ output:
 ![RStudio Installation](Installation2.png){width=50%}
 ![GitHub Installation](Installation3.png){width=50%}
 
-### Portfolio repo setup (!!!)
-Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your porfolio throughout the course.
+### Portfolio repo setup
+To create the portfolio, sign into GitHub and create a new repository. On the terminal type "git init", "git add .", then "git commit -m "whatever you want to say"". Go back to the GitHub webpage and copy the URL into terminal ("git remote add origin http://remote_repository_URL"). Verify the URL with "git remote -v". Make your push to GitHub with the command "git push -u origin master". 
 
-### RMarkdown pretty html challenge
+To push future changes follow the sequence: "git init", "git add .", "git commit -m "whatever you want to say"", then "git push". Use "git status" to ensure all changes uploaded succesfully. 
+
+### RMarkdown pretty html challenge (!!!)
 
 
-## Origins and Earth Systems
+## Origins and Earth Systems (!!!)
 ### Evidence Worksheet 01 
 ### Evidence Worksheet 02
-### .......... 
-### Problem set 01
+### Evidence Worksheet 03 
+### Problem Set 01
+### Problem Set 02
 
-
-### Module 01 references (!!!)
+### Module 01 References (!!!)
 Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)

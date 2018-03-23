@@ -1,10 +1,10 @@
-### Problem set 02
+### Problem Set 02
 [Falkowski *et al* 2008](http://science.sciencemag.org/content/320/5879/1034.full)
 
-#### Learning objectives: 
+#### Learning Objectives: 
 Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles. 
 
-#### Specific questions:
+#### Specific Questions:
 * What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
 Primary geophysical processes are based on tectonics and atmospheric photochemical processes. The high level of hydrogen in Earth's atmosphere results in the majority of these abiotic processes being based on acid base chemistry. Acid base reactions supply and remove substances to create cycling of nutrients. The primary biogeochemical processes are abiotic acid base reactions and biotic redox reactions both based on cycling of H, C, N, O, S, and P.  All the processes connect to create balance in elements and processes on earth. 
 
