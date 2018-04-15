@@ -1,16 +1,9 @@
----
-title: "Project 1"
-author: "Sawera Dhaliwal (24324148)"
-date: "3/20/2018"
-output: html_document
----
-
 # Libraries
 library(tidyverse)
 library(phyloseq)
 library(kableExtra)
 library(vegan)
-library(magrittr)
+#library(magrittr) pretty sure it's unnecessary, it's as a part of the tidyverse no?
 
 # Loading in Data
 load("mothur_phyloseq.RData")
@@ -176,13 +169,13 @@ qiime2_taxon =
 
 #linear model  
 #summary(lm(formula = Shannon ~ Sample, data = mothur_alpha))
-
+# !!! needs to be FDR-corrected
 summary(lm(formula = TaxAbundance ~ O2_uM, data = mothur_taxon))
 summary(lm(formula = TaxAbundance ~ O2_uM, data = qiime2_taxon))
-summary(lm(formula = TaxAbundance ~ Depth_m, data = mothur_taxon))
-summary(lm(formula = TaxAbundance ~ Depth_m, data = qiime2_taxon))
-summary(lm(formula = TaxAbundance ~ TotAbundance, data = mothur_taxon))
-summary(lm(formula = TaxAbundance ~ TotAbundance, data = qiime2_taxon))
+summary(lm(formula = TaxAbundance ~ Depth_m, data = mothur_taxon)) # verge of significance
+summary(lm(formula = TaxAbundance ~ Depth_m, data = qiime2_taxon)) # significant
+summary(lm(formula = TaxAbundance ~ TotAbundance, data = mothur_taxon)) # why was this done
+summary(lm(formula = TaxAbundance ~ TotAbundance, data = qiime2_taxon)) # why was this done
 
 
 #LM graphs of how taxon differs in abundance with depth and oxygen concentration
@@ -220,7 +213,7 @@ ggplot(qiime2_taxon, aes(x=Depth_m, y=TaxAbundance)) +
   labs(x = "Depth (m)", y = "Tax Abundance", 
        colour = expression(paste("[O"[2], "] (", mu, "M)")))  
 
-#set up for LN
+#set up for LM
 
 mothur_otus_total =
   mothur_otus %>% 
@@ -235,11 +228,12 @@ qiime2_asvs_total =
   merge(., qiime2_taxon, "Sample")
 
 #linear model
+#everything is no longer significant once corrected for multiple-comparisons testing
   #mothur
 summary(lm(formula = Otu0308 ~ O2_uM, data = mothur_otus_total))
-summary(lm(formula = Otu0308 ~ Depth_m, data = mothur_otus_total))
+summary(lm(formula = Otu0308 ~ Depth_m, data = mothur_otus_total)) #verge of significance
 summary(lm(formula = Otu0666 ~ O2_uM, data = mothur_otus_total))
-summary(lm(formula = Otu0666 ~ Depth_m, data = mothur_otus_total))
+summary(lm(formula = Otu0666 ~ Depth_m, data = mothur_otus_total)) #significant
 summary(lm(formula = Otu0704 ~ O2_uM, data = mothur_otus_total))
 summary(lm(formula = Otu0704 ~ Depth_m, data = mothur_otus_total))
 summary(lm(formula = Otu0751 ~ O2_uM, data = mothur_otus_total))
@@ -326,7 +320,7 @@ mothur_percent %>%
   
   ggplot() +
   geom_point(aes(x=O2_uM, y=Abundance)) +
-  geom_smooth(method='lm', aes(x=Depth_m, y=Abundance)) +
+  geom_smooth(method='lm', aes(x=O2_uM, y=Abundance)) +
   facet_wrap(~OTU, scales="free_y") +
   labs(title="Abundance of OTUs within Sulfurimonas genus across oxygen concentration")
 
@@ -595,22 +589,7 @@ ggplot(qiime2_asvs_total, aes(x=Depth_m, y=Asv2216)) +
   labs(x = "Depth (m)", y = "ASV Abundance",title ="ASV2216", 
        colour = expression(paste("[O"[2], "] (", mu, "M)"))) 
 
-# !!!
-# kruskal wallis for each individual OTU/ASV
-# incomplete, do not run
-
-#function(dataset, sam_name = "sam"){
-#	assign(paste(sam_name,"kruskal",sep="_"), 
-#				 data.frame(x = row.names(dataset), y = rep(1)), 
-#				 envir = .GlobalEnv)
-	
-#	for(i in length(dataset)) {
-#		kruskal.test(TaxAbundance ~ O2_uM, data = dataset)$p.value
-#	}
-	
-	
 #}
 
 # !!!
 # try linear model of abundance vs depth/o2 
-

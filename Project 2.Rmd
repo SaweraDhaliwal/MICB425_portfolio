@@ -1,0 +1,19 @@
+---
+title: "Project 2"
+author: "Sawera Dhaliwal (24324148)"
+date: "4/3/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Libraries
+library(tidyverse)
+library(phyloseq)
+library(kableExtra)
+library(vegan)
+
+# Loading in Data
+load("nirS_abundance_simplebar.txt")
