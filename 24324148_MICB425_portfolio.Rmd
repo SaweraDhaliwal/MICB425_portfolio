@@ -15,11 +15,13 @@ output:
 ![RStudio Installation](Installation2.png){width=50%}
 ![GitHub Installation](Installation3.png){width=50%}
 
-### RMarkdown pretty html challenge
+### RMarkdown PrettyHtml Challenge
 ```{r child = "prettyhtml.Rmd"}
 ```
 
-## Origins and Earth Systems
+### Plotting Data in R Task
+
+### Origins and Earth Systems
 ```{r child = "Worksheet 1.Rmd"}
 ```
 
@@ -44,3 +46,23 @@ Rockstrom et al. 2009. A safe operating space for humanity. Nature. 461:472-475.
 
 Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
+# Module 02
+### Remapping the body of the world
+```{r child = "Worksheet 4.Rmd"}
+```
+
+```{r child = "Problem Set 3.Rmd"}
+```
+
+### Module 02 References
+Martinez et al. 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proc Natl Acad Sci USA. 104(13):5590-5595. [PMC1838496](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+Wooley JC, Godzik A, Friedberg I. 2010. A Primer on Metagenomics. Proc Natl Acad Sci USA. 6(2). [PMC2829047](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829047/)
+
+# Module 03
+### Microbial species concepts
+```{r child = "Worksheet 5.Rmd"}
+```
+
+### Module 03 References
+Welch et al. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proc Natl Acad Sci USA. 99(26):17020-17024. [PNAS252529799](https://www.ncbi.nlm.nih.gov/pubmed/12471157)

@@ -1,14 +1,36 @@
 ### Problem Set 03
+[Wooley *et al* 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829047/)
+
+#### Learning Objectives:
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
 
 #### Specific Questions:
-* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?  
+The total number of groups we use to organize life is constantly increasing. The information we have about groups comes from sequencing data. The majority of life is uncultivated.
 
-* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?  
+There are thousands of metagenome sequencing projects, and the numbers are always changing. It should also be noted that the public domain constitutes only a small fraction of the projects that are currently taking place, as the majority of the projects are not available on public databases. These projects are sequences from all types of environments including sediments, soil, gut, and aquatic environments. They are especially useful in circumstances where it is hard to culture communities in lab settings. 
 
-* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
 
-* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?
+SHOTGUN METAGENOMICS: 
+Assembly - Euler;
+Binning - S-GCOM;
+Annotation - KEGG;
+Analysis pipeline - Megan 5;
+Databases - IMG, MG-RAGT, NCB 
 
-* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?
+MARKER GENE METAGENOMICS:
+Stand alone software - OUTbase;
+Analysis pipeline - SILVA;
+Denoising - Ampliconnoise;
+Database - Ribosomal Database Project
 
-* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?  
+Phylogenetic gene anchors are used to identify phylogeny. They are used with vertical transfer, universal, single copy genes. They are used to create taxonomic trees by comparing the minute differences that develop over time. On the other hand, functional gene anchors are used to identify functions. They don’t often carry phylogenetic information. For example, methanogenesis is very specific to methanogens. So if you identify an enzyme for methanogenesis, you will only get information about a number of organisms. In addition, they tend to be horizontally transferred, so are not as useful in investigating taxonomy. 
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+Metagenomic sequence binning is a process of grouping sequence reads into operational taxonomic units. The algorithmic approaches used are to align sequences to databases or group sequences to each other based on DNA characteristics (for example: GC content or codon usage). Some risks associated with this technique are incomplete coverage of genome sequence, or contamination from different phylogeny. For this reason, metagenomic sequence binning is a significant controversy in the field. 
+
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+FISH is an alternative technique to metagenomic shotgun sequencing. It’s fairly accurate and precise. However, it is quite time consuming and expensive. The signal is also short lived. Some other techniques are functional screens (biochemical assays) and 3rd generation and single cell sequencing. 

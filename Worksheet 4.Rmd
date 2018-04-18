@@ -1,6 +1,5 @@
 ### Evidence Worksheet 04
-
-!!! need citation
+[Martinez *et al* 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
 
 #### Learning Objectives
 Discuss the relationship between microbial community structure and metabolic diversity.

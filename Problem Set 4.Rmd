@@ -9,12 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### Part 1: Enumeration and Description
+##### Load Packages
 library(kableExtra)
 library(knitr)
 library(tidyverse)
 library(vegan)
 
-#load community data
+##### Load Community Data
 community_data = data.frame(
   number = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16),
   name = c("rigo", "lego", "drop", "bear", "skit", "mnm", "mike","macrophage","swirl","watermelon","kisses","snake","bottle","hock","port","fish"),
@@ -22,16 +24,20 @@ community_data = data.frame(
   occurences = c(7,18,24,74,197,218,199,6,3,1,16,13,3,1,1,1)
 )
 
-#create community data table
+##### Community Data Table
+```{r}
 community_data %>% 
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
-  
-#creating the collector's curve 
-#!!!
+``` 
 
-#diversity estiamtes (alpha diversity)
-##simpson reciprocal index for community sample 
+### Part 2: Collector’s Curve
+(!!!)
+
+### Part 3: Diversity Estimates (Alpha Diversity)
+
+##### Simpson Reciprocal Index For Community Sample 
+```{r}
 species1 = 7/782
 species2 = 18/782
 species3 = 24/782
@@ -50,21 +56,35 @@ species15 = 1/782
 species16 = 1/782
 
 1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2)
+```
 
-##Chao1 richness estimator
+##### Chao1 Richness Estimator
+```{r}
 16 + 4^2/(2*12)
+``` 
 
-#alpha diversity functions in R (load vegan)
-##remove unnecesary columns
+### Part 4: Alpha-Diversity Functions in R
+##### Remove Columns and Transpose Data
+```{r}
 community_data_diversity = 
   community_data %>% 
   select(name, occurences) %>% 
   spread(name, occurences)
 
 community_data_diversity
+```
 
-##calculate the Simpson Reciprocal Index
+##### Calculate Simpson Reciprocal Index
+```{r}
 diversity(community_data_diversity, index="invsimpson")
+```
 
-##calculate the Chao1 richness estimator
+##### Calculate Chao1 Richness Estimator
+```{r}
 specpool(community_data_diversity)
+```
+
+(!!!) "for your sample...."
+
+### Part 5: Concluding Activity 
+(!!!)
