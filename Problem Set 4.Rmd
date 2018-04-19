@@ -46,6 +46,9 @@ collector_data %>%
   kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
 ```
 
+##### Conclusion
+The sample taken appears to be fairly representative of the community. Species appearing in high frequency remain prevalent in the sample. The sample does not contain five of the sixteen species identified in the community. This is not alarming, since the five species contained a small number of individuals to begin with. 
+
 ### Part 2: Collector’s Curve
 ##### Random Collection of Cells 
 collector_sample_data = data.frame(
@@ -60,6 +63,9 @@ ggplot(collector_sample_data, aes(x=x, y=y)) +
   geom_smooth() +
   labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
 ```
+
+##### Conclusion
+The curve flattens out entirely after the 79th cell collected. From the shape of the collector's curve, we are led to believe that the sampling was complete and representative of our community. 
 
 ### Part 3: Diversity Estimates (Alpha Diversity)
 ##### Simpson Reciprocal Index For Community Sample 
@@ -111,6 +117,10 @@ species11 = 3/136
 11 + 0^2/(2*11)
 ``` 
 
+##### Conclusion
+The simspon REciprocal Index is 4.6 for the community and 5.2 for the sample.
+The chao1 estimate is 16.7 for the community and 16 for the sample
+
 ### Part 4: Alpha-Diversity Functions in R
 ##### Remove Columns and Transpose Data for Community Data
 ```{r}
@@ -151,8 +161,15 @@ specpool(community_data_diversity)
 ```{r}
 specpool(collector_data_diversity)
 ```
+##### Conclusion
+The Simpson Reciprocal Indices for the community and collector's samples are 4.6 and 5.2 recpectively. The chao1 estimates for the community and collector's samples are 16 and 11 recpectively. This is almost entirely consistent with my previous calculations. The only discrepancy being a calculated Simpson value of 16.7 and a R function determined value of 16 for the community sample. 
 
 ### Part 5: Concluding Activity 
-* How does the measure of diversity depend on the definition of species in your samples?
-* Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
-* How might different sequencing technologies influence observed diversity in a sample?
+* How does the measure of diversity depend on the definition of species in your samples?  
+For both the Simpson Reciprocal Index and Chao1 Richness Estimator methods, if you increase the number of defined species in your community, the estimated diversity will increase. 
+
+* Can you think of alternative ways to cluster or bin your data that might change the observed number of species?  
+For this assignment, my clusters were mostly based off of shape. The biggest change I could make, would be to cluster based off of both shape and color. This would increase the number of observed species and, consequently, the estimated diversity of my community. 
+
+* How might different sequencing technologies influence observed diversity in a sample?  
+I'm assuming different sequencing technologies (software) have unique built in species definition criteria. So, for example, one program may classify my sample based solely off of shape and the other both shape and color. As discussed above, this would result in different diversity estimates. Of course, this points towards the importance of finding a universal species definition, which would make comparison amongst studies and data consolidation much more effective. 
