@@ -16,10 +16,10 @@ output:
 ![GitHub Installation](Installation3.png){width=50%}
 
 ### RMarkdown PrettyHtml Challenge
-```{r child = "prettyhtml.Rmd"}
-```
+I was unable to include this in the knit final version of my portfolio since the code blocks would not allow me to. 
 
 ### Plotting Data in R Task
+I was unable to include this the knit final version of my portfolio since the code blocks would not allow me to. 
 
 ### Origins and Earth Systems
 ```{r child = "Worksheet 1.Rmd"}
@@ -35,6 +35,9 @@ output:
 ```
 
 ```{r child = "Problem Set 2.Rmd"}
+```
+
+```{r child = "Paper 1.Rmd"}
 ```
 
 ### Module 01 References
@@ -64,5 +67,17 @@ Wooley JC, Godzik A, Friedberg I. 2010. A Primer on Metagenomics. Proc Natl Acad
 ```{r child = "Worksheet 5.Rmd"}
 ```
 
+```{r child = "Paper 2.Rmd"}
+```
+
+```{r child = "Project 1.Rmd"}
+```
+
 ### Module 03 References
 Welch et al. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proc Natl Acad Sci USA. 99(26):17020-17024. [PNAS252529799](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+# Module 04
+### Distributed metabolic networks
+### Module 04 References
+```{r child = "Project_02.Rmd"}
+```

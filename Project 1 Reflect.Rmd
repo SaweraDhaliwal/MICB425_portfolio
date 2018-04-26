@@ -1,0 +1,19 @@
+---
+title: "Project self-assessment of contributions Projet 1"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+
+
+## Results
+### Anaysis - small amount of advice and direction 
+
+### Editing - some suggestions made 
+
+
+## Discussion
+### Literature research - some research to support my claims
+
+### Writing - wrote all paragraphs except those discussing the pipelines; Ryan N edited my work a significant amount though
+
+### Editing - edited my own and Judy's contributions to make the dicussion portion flow

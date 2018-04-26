@@ -1,0 +1,19 @@
+---
+title: "Project self-assessment of contributions Projet 2"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Results
+### Anaysis - contributed to in class discussion, but wasn't involved in actual report
+
+
+## Discussion
+### Literature research - some research to support my claims
+
+### Writing - discuss nitrogen cycle as distributed metabolic process
+
+### Editing -  rearrange our original version to make for better readability and flow of thought
